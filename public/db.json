@@ -1,0 +1,154 @@
+{
+  "books": [
+    {
+      "id": "12",
+      "author": "Khaled Hosseini",
+      "country": "Afghanistan",
+      "imageLink": "https://upload.wikimedia.org/wikipedia/en/6/62/Kite_runner.jpg",
+      "language": "English",
+      "title": "The Kite Runner",
+      "year": 2003,
+      "cost": "16"
+    },
+    {
+      "id": "14",
+      "author": "Yasunari Kawabata",
+      "country": "Japan",
+      "imageLink": "https://i.ebayimg.com/images/g/BXYAAOSwZINkz5cN/s-l1600.jpg",
+      "language": "Japanese",
+      "title": "Snow Country",
+      "year": "1948",
+      "cost": "25"
+    },
+    {
+      "id": "16",
+      "author": "Chimamanda Ngozi Adichie",
+      "country": "Nigeria",
+      "imageLink": "https://upload.wikimedia.org/wikipedia/en/f/f1/HalfYellowSun.JPG",
+      "language": "English",
+      "title": "Half of a Yellow Sun",
+      "year": 2006,
+      "cost": "10"
+    },
+    {
+      "id": "17",
+      "author": "Gabriela Mistral",
+      "country": "Chile",
+      "imageLink": "https://images.squarespace-cdn.com/content/v1/5cad42ef90f904e520359371/c7cfcf3f-4036-4a29-a19e-1d3ae28d55a4/selected-poems-mistral-le-guin.jpg",
+      "language": "Spanish",
+      "title": "Desolation",
+      "year": 1922,
+      "cost": "5"
+    },
+    {
+      "id": "18",
+      "author": "Cao Xueqin",
+      "country": "China",
+      "imageLink": "https://m.media-amazon.com/images/I/41OsytsQfiL._SY445_SX342_.jpg",
+      "language": "Chinese",
+      "title": "Dream of the Red Chamber",
+      "year": 1791,
+      "cost": "20"
+    },
+    {
+      "id": "19",
+      "author": "Halldór Laxness",
+      "country": "Iceland",
+      "imageLink": "https://upload.wikimedia.org/wikipedia/en/8/80/Independent_People.jpg",
+      "language": "Icelandic",
+      "title": "Independent People",
+      "year": 1934,
+      "cost": "30"
+    },
+    {
+      "id": "20",
+      "author": "Ngũgĩ wa Thiong'o",
+      "country": "Kenya",
+      "imageLink": "https://upload.wikimedia.org/wikipedia/en/b/b1/AGrainOfWheat.jpg",
+      "language": "English",
+      "title": "A Grain of Wheat",
+      "year": 1967,
+      "cost": "5"
+    },
+    {
+      "title": "Art of War",
+      "author": "Sun Zu",
+      "country": "Ancient China",
+      "imageLink": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781626860605/the-art-of-war-9781626860605_hr.jpg",
+      "year": "2000 BCE",
+      "id": "25",
+      "cost": "2000"
+    },
+    {
+      "id": "21",
+      "author": "George Orwell",
+      "country": "United Kingdom",
+      "imageLink": "https://m.media-amazon.com/images/I/81m-yfhwlfL._AC_UF1000,1000_QL80_.jpg",
+      "language": "English",
+      "title": "1984",
+      "year": 1949,
+      "cost": "15"
+    },
+    {
+      "id": "22",
+      "author": "Fyodor Dostoevsky",
+      "country": "Russia",
+      "imageLink": "https://d2j6dbq0eux0bg.cloudfront.net/images/29620892/3928066483.webp",
+      "language": "Russian",
+      "title": "Crime and Punishment",
+      "year": 1866,
+      "cost": "15"
+    },
+    {
+      "id": "23",
+      "author": "J.D. Salinger",
+      "country": "United States",
+      "imageLink": "https://m.media-amazon.com/images/I/51TI+w56qFL._SY445_SX342_.jpg",
+      "language": "English",
+      "title": "The Catcher in the Rye",
+      "year": 1951,
+      "cost": "10"
+    },    
+    {
+      "id": "24",
+      "author": "William Shakespeare",
+      "country": "England",
+      "imageLink": "https://m.media-amazon.com/images/I/31z0YK587wL._SY445_SX342_.jpg",
+      "language": "English",
+      "title": "Hamlet",
+      "year": 1603,
+      "cost": "10"
+    },
+    {
+      "id": "25",
+      "author": "Fyodor Dostoevsky",
+      "country": "Russia",
+      "imageLink": "https://m.media-amazon.com/images/I/41r1THoHFQL._SY445_SX342_.jpg",
+      "language": "Russian",
+      "title": "The Brothers Karamazov",
+      "year": 1880,
+      "cost": "18"
+    },
+    {
+      "id": "26",
+      "author": "Harper Lee",
+      "country": "United States",
+      "imageLink": "https://i.etsystatic.com/39874707/r/il/33e3dc/4658494048/il_794xN.4658494048_t6un.jpg",
+      "language": "English",
+      "title": "To Kill a Mockingbird",
+      "year": 1960,
+      "cost": "12"
+    },
+    {
+      "id": "27",
+      "author": "Various",
+      "country": "Various",
+      "imageLink": "https://m.media-amazon.com/images/I/51mVxLPBgzL._AC_UF1000,1000_QL80_.jpg",
+      "language": "English",
+      "title": "The Bible",
+      "year": "-",
+      "cost": "Free"
+    }
+  
+  ]
+}
