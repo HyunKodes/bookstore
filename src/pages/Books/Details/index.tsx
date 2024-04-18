@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { IBookInfo, useBooks } from '../../../services/Hooks';
 import { Card } from "../../../components/Card";
@@ -20,7 +19,7 @@ export const Details = () => {
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     if (bookInfo) {
       const updatedBook = { ...bookInfo, [event.target.name]: event.target.value };
-      editBook(id, updatedBook);
+      editBook(id as string, updatedBook);
     }
   };
 

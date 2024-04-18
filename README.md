@@ -14,9 +14,9 @@ Website (**[React.js](https://reactjs.org/) +[TypeScript](https://www.typescript
 
 ## Installation and usage
 
-# Access the project folder in your terminal and install npm
+# Access project folder and install npm
 
-$  cd  bookstore
+$  cd bookstore
 
 $  npm install
 

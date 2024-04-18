@@ -8,7 +8,7 @@ import { useBooks} from "../../../services/Hooks";
 import { v4 as uuidv4 } from 'uuid';
 
 export const Create = () => {
-  const [request, setRequest] = useState({} as IBookRequest);
+  const [request, setRequest] = useState({});
 
   const navigate = useNavigate()
   const { createBook } = useBooks();
@@ -20,8 +20,17 @@ export const Create = () => {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const newBook = { ...request, id: uuidv4() };
-    createBook(newBook);
+    const newBook = { 
+      ...request, 
+      id: uuidv4(),
+      author: "", 
+      cost:0, 
+      country: "",
+      imageLink: "", 
+      language: "",
+      title: "", 
+      year: 0,
+    };    createBook(newBook);
     alert("Book successfully added!");
     navigate("/");
   };

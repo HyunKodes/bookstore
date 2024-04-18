@@ -4,13 +4,13 @@ import { useBooks } from "../../services/Hooks";
 
 interface IProps {
   info: {
-    id: string;
-    author: string;
-    cost: number;
-    country: string;
+    id: string | JSX.Element;
+    author: string | JSX.Element;
+    cost: number | JSX.Element;
+    country: string | JSX.Element;
     imageLink: string;
-    title: string;
-    year: number;
+    title: string | JSX.Element;
+    year: number | JSX.Element;
     detailsButton?: boolean;
   };
 }
@@ -67,7 +67,7 @@ export const Card = ({ info }: IProps) => {
       {detailsButton ? (
         <ButtonContainer>
           <Link to={`/books/${id}`}>Details</Link>
-          <button onClick={() => handleDelete(id)}>Delete</button>
+          <button onClick={() => handleDelete(id as string)}>Delete</button>
         </ButtonContainer>
       ) : (
         <ButtonContainer>
